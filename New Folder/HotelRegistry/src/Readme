@@ -1,0 +1,53 @@
+Name : Prashant Patil
+ID   : A20356927
+
+[i]
+1] Eclipse
+	load project in eclipse and run the HotelRegistry.java file
+	
+
+2] Command line
+	go to folder containing HotelRegistry.java file
+	- run "javac HotelRegistry"
+	- run "java HotelRegistry"   for machine run
+	
+[ii]
+1] HotelRegistry is implemented in three sections i.e. Modal, View and Controller.
+   The Controller section comprises of the main method which will control the whole 
+   flow of program. The Modal section consists of the core logic of getting the room
+   information, checking room availability, managing room and guest information etc.
+   Finally the View section comprises of all the GUI classes which will be used to
+   display the Main menu window, Check-In, Check-out and Notification window.
+   
+2] I have implemented four different classes for all the four types of rooms. In 
+   these classes i have declared the variables for getting info about Room no. , 
+   No. of days the guest has stayed in that room and the charge per day of that type 
+   of room.
+   
+3] Based on clerk's action and based on all the validations i am getting the room no.
+   and setting the room no. using JComboBox.setModel method. and the same i am doing
+   with the room no. in CheckOut form. And for the texts in Main Menu i am getting the 
+   room no.s as text and updating the JTextFields on runtime based on the clerk's action.
+   
+[iii]
+   I faced issues in implementing the logic for updating the Room no. in CheckIn window on
+   runtime. Validating all the conditions and then displaying the room no. in JComboBox
+   was giving me a hard time.
+   
+[iv]
+   The issues i mentioned in point [iii] i have not implemented that properly. To be honest
+   i am simply updating the room no.s in the CheckIn form based on the room type selected by 
+   the Clerk.
+    
+[v]
+   I am not sure about Vague or Open but i found that one important was missing in this
+   whole project was the Billing information. After check out the receipt should have been
+   generated based on the no. of days the customer stayed in that room. I tried to implement 
+   that logic too but didn't implemented it fully. Otherwise, i might need to change the 
+   layouts of the windows as given in the requirement.
+   
+[vi]
+   I would give a 7 to this project. 
+   I am giving this rating based on the time it took for me to complete this MP.
+   
+------Thank You------------------------------------------------------------------------------ 
